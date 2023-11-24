@@ -9,7 +9,7 @@ public class CharacterMovement : MonoBehaviour
     public Vector3 playerVelocity;
     public bool groundedPlayer;
     public float mouseSensitivy = 5.0f;
-    private float jumpHeight = 1f;
+    private float jumpHeight = 2f;
     private float gravityValue = -9.81f;
     private CharacterController controller;
     private float walkSpeed = 5;
