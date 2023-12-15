@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3335006}
   - component: {fileID: 2346822}
   - component: {fileID: 9123856419564030119}
+  - component: {fileID: 7064910232646039234}
   m_Layer: 0
   m_Name: Tree9_2
   m_TagString: Untagged
@@ -116,6 +117,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.7524343, y: 22.858625, z: 1.4195763}
   m_Center: {x: 0.012352556, y: 11.429313, z: 0.07109088}
+--- !u!64 &7064910232646039234
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114418}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4303498}
 --- !u!21 &2129798
 Material:
   serializedVersion: 8
@@ -401,7 +424,7 @@ MonoBehaviour:
   m_Name: Tree Data
   m_EditorClassIdentifier: 
   _uniqueID: 173
-  materialHash: 0b7f01b5372394f2caa1688ce359988a215482368
+  materialHash: c59e5682d85bd8232dfce620a9dfa815215482368
   root:
     _uniqueID: 1
     seed: 0
